@@ -1,16 +1,25 @@
 # 茶杯助手 OpenClaw 备份
 
-这是 AI 助手"茶杯"的配置和记忆备份。
+AI 助手"茶杯"的配置和记忆备份。
 
-## 文件说明
-- `MEMORY.md` - 长期记忆
-- `2026-05-05.md` - 今日日记
-- `凌晨的烤冷面_原文.txt` - 老板发的短篇故事原文
+## 目录结构
 
-## Telegram 配置
+```
+茶杯助手_openclaw_backup/   ← 配置和记忆
+凌晨的烤冷面/               ← 故事1
+  ├── 原文.txt
+  ├── audio.mp3
+  └── subtitles.srt
+青石镇渡口/                 ← 故事2
+  ├── 原文.txt
+  ├── audio.mp3
+  └── subtitles.srt
+```
+
+## 每个故事文件夹包含
+- `原文.txt` - 故事原始文字
+- `audio.mp3` - TTS 语音
+- `subtitles.srt` - 同步字幕
+
+## Telegram
 - Bot: @ximi66_bot
-- Chat ID: 5236144720
-- 已配置在 openclaw.json 中
-
-## TTS 语音
-已生成 MP3 语音文件（9MB），通过 Telegram 发送给了老板。
